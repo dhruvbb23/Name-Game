@@ -1,0 +1,35 @@
+html,body{
+  margin:0;
+  padding:0;
+  background:#0b1220;
+  overflow:hidden;
+  font-family:Arial,sans-serif;
+}
+
+#canvas{
+  display:block;
+}
+
+#hud{
+  position:fixed;
+  top:10px;
+  left:50%;
+  transform:translateX(-50%);
+  color:#00eaff;
+  font-size:20px;
+  font-weight:bold;
+  display:flex;
+  gap:30px;
+}
+
+#gameOver{
+  position:fixed;
+  inset:0;
+  display:none;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background:rgba(0,0,0,.85);
+  color:white;
+  z-index:10;
+}
